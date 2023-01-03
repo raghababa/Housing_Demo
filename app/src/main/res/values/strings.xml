@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DTTProject</string>
+    <string name="back_button">Back Button</string>
+    <string name="description">Description</string>
+    <string name="about">ABOUT</string>
+    <string name="location">Location</string>
+    <string name="design_and_development">Design And Development</string>
+    <string name="search">Search for a home</string>
+    <string name="empty_result">No result found!</string>
+    <string name="another_search">Perhaps try another search?</string>
+    <string name="title">DTT REAL STATE</string>
+    <string name="by_dtt">by DTT</string>
+    <string name="link">d-tt.nl</string>
+    <string name="about_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident.
+</string>
+    <string name="MAPS_API_KEY">mapaptkey</string>
+
+
+</resources>
