@@ -21,7 +21,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.dttproject.R
+import com.example.myproject.R
 import com.example.dttproject.navigation.MainActions
 import com.example.dttproject.ui.theme.strong
 
@@ -78,12 +78,12 @@ fun InformationScreen(actions: MainActions) {
             Spacer(modifier = Modifier.height(40.dp))
             Row(modifier = Modifier.padding(start = 20.dp)) {
                 //dtt banner
-                Image(painterResource(id = R.drawable.dtt_banner), contentDescription = "")
+                Image(painterResource(id = R.drawable.baseline_house_24), contentDescription = "")
                 // dtt link
 
                 Column(modifier = Modifier.padding(start = 24.dp, bottom = 250.dp)) {
                     Text(
-                        stringResource(id = R.string.by_dtt),
+                        stringResource(id = R.string.by_me),
                         color = Color.Black
                     )
                     TextButton(

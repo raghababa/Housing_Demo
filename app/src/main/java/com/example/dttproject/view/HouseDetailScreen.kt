@@ -16,7 +16,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
-import com.example.dttproject.R
+import com.example.myproject.R
 import com.example.dttproject.components.HouseDetailItem
 import com.example.dttproject.model.DetailViewState
 import com.example.dttproject.navigation.MainActions

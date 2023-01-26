@@ -27,7 +27,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.dttproject.R
+import com.example.myproject.R
 import com.example.dttproject.components.*
 import com.example.dttproject.model.HouseItem
 import com.example.dttproject.model.ViewState

@@ -22,7 +22,7 @@ import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.res.painterResource
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.dttproject.R
+import com.example.myproject.R
 import com.example.dttproject.navigation.BottomNavigationItem
 import com.example.dttproject.navigation.MainActions
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
@@ -35,9 +35,7 @@ fun SplashScreen(
 ) {
 
     val systemUiController = rememberSystemUiController()
-//    window?.statusBarColor = Color.Red.toArgb()
     SideEffect {
-//                    systemUiController.setStatusBarColor(color = Color.Transparent)
 //                     navigation bar
                     systemUiController.isNavigationBarVisible = false
 
@@ -63,7 +61,7 @@ fun SplashScreen(
 
     ) {
        Image(
-           painter = painterResource(id = R.drawable.ic_dtt),
+           painter = painterResource(id = R.drawable.baseline_house_24),
            contentDescription = "",
            alignment = Alignment.Center
        )
@@ -81,8 +79,6 @@ fun requestFullScreen(view: View) {
 
 fun Context.getActivity(): Activity? = when (this) {
     is Activity -> this
-    // this recursion should be okay since we call getActivity on a view context
-    // that should have an Activity as its baseContext at some point
     is ContextWrapper -> baseContext.getActivity()
     else -> null
 }

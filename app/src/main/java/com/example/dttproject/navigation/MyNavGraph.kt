@@ -26,9 +26,9 @@ fun DTTNavGraph() {
     val navController = rememberNavController()
     val actions = remember(navController) { MainActions(navController) }
 
-    NavHost(navController, startDestination = DTTScreens.Splash.name) {
+    NavHost(navController, startDestination = MyScreens.Splash.name) {
         // Splash screen
-        composable(DTTScreens.Splash.name) {
+        composable(MyScreens.Splash.name) {
             viewModel.getAllHouseList()
             SplashScreen(actions )
 
@@ -40,7 +40,7 @@ fun DTTNavGraph() {
         }
         // HouseDetailScreen
         composable(
-            "${DTTScreens.HouseDescription.name}/{id}/{distance}",
+            "${MyScreens.HouseDescription.name}/{id}/{distance}",
             arguments = listOf(navArgument(EndPoints.ID) { type = NavType.StringType }
 
             )
@@ -68,7 +68,7 @@ class MainActions(navController: NavHostController) {
     }
 
     val gotoHouseDetails: (isIdNo:String, distance:String) -> Unit = { isIdNo, distance ->
-        navController.navigate("${DTTScreens.HouseDescription.name}/$isIdNo/$distance")
+        navController.navigate("${MyScreens.HouseDescription.name}/$isIdNo/$distance")
     }
 
     val gotoOtherCompose: (String) -> Unit = {route ->

@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.dttproject'
+    namespace 'com.example.myproject'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.dttproject"
+        applicationId "com.example.myproject"
         minSdk 21
         targetSdk 33
         versionCode 1
